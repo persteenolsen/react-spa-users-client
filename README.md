@@ -2,7 +2,7 @@
 
   - This React client ( SPA ) is the frontend for a secure Node.js and Express Web API serving as a role based Membership system
   
-  - Email verification after regisstration
+  - Email verification after registration
   - Forgot password functionality 
   - Manuel configuration of Webpack serving as a module bundler
   - Babel for transpiling JavaScript React ES6 to JavaScript ES5 ready for browsers
