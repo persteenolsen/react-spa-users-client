@@ -68,7 +68,7 @@ class AboutPage extends React.Component {
               <ul>
                <li>Node.js and Express are used for the Web API backend</li>
 			   <li>Nodemailer for sending emails according to verify email and forgot password</li>
-			   <li>JavaScript widt regular expression for backend form input validation</li>
+			   <li>JavaScript and regular expression for backend form input validation</li>
 		       <li>JavaScript ES5, ES6 and ES7</li>
 		       <li>The JS Controllers are handling the requests, responses and calling the JS Services inspired by the MVC pattern</li>
 		       <li>The JS Services are performing SQL calls to the MySQL database and returning the result to the JS Controllers</li>
