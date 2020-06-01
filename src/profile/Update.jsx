@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Formik, Field, Form, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
@@ -6,16 +7,18 @@ import * as Yup from 'yup';
 import { accountService, alertService } from '@/_services';
 
 function Update({ history }) {
-    const user = accountService.userValue;
-    const initialValues = {
-        title: user.title,
-        firstName: user.firstName,
-        lastName: user.lastName,
-		role: user.role,
-        email: user.email,
+   
+   const user = accountService.userValue;
+      const initialValues = {
+        title: '',
+        firstName: '',
+        lastName: '',
+        email: '',
+        role: '',
         password: '',
         confirmPassword: ''
-    };
+    }; 
+    const { id } = user.id;
 
     const validationSchema = Yup.object().shape({
         title: Yup.string()
@@ -68,12 +71,23 @@ function Update({ history }) {
 
     return (
         <Formik initialValues={initialValues} validationSchema={validationSchema} onSubmit={onSubmit}>
-            {({ errors, touched, isSubmitting }) => (
+         
+
+           {({ errors, touched, isSubmitting, setFieldValue }) => {
+                useEffect(() => {
+                  
+     				  // get user and set form fields
+                        accountService.getById(user.id).then(user => {
+                            const fields = ['title', 'firstName', 'lastName', 'email', 'role'];
+                            fields.forEach(field => setFieldValue(field, user[field], false));
+                        });
+                   
+                }, []);
+
+                return (
                 <Form>
                     <h1>Update Profile</h1>
-					 <div className="form-row">
-					 <p>If you are updating your profile, you will need to logout and login again to see the changes!</p>
-					 </div>
+					
 					 
                     <div className="form-row">
                         <div className="form-group col">
@@ -145,9 +159,10 @@ function Update({ history }) {
                       </div>
 						
                 </Form>
-            )}
+                );
+            }}
         </Formik>
-    )
+    );
 }
 
 export { Update };

@@ -89,7 +89,7 @@ function AddEdit({ history, match }) {
 	
 	      
         <Formik initialValues={initialValues} validationSchema={validationSchema} onSubmit={onSubmit}>
-            {({ errors, touched, isSubmitting, setFieldValue }) => {
+             {({ errors, touched, isSubmitting, setFieldValue }) => {
                 useEffect(() => {
                     if (!isAddMode) {
                         // get user and set form fields
