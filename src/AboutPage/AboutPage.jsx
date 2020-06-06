@@ -55,6 +55,7 @@ class AboutPage extends React.Component {
 
                <b>Technology and hosting used for the React SPA client - The frontend</b>  
                <ul>
+				<li>The frontend are representing the V for Views due to the MVC pattern</li>
                 <li>React, HTML, CSS, JavaScript ES5, ES6 and ES7</li>
 				<li>Formik and Yup for frontend form input validation</li>
                 <li>Traditionel Bootstrap 4 by CDN for the responsive design</li>
@@ -70,7 +71,12 @@ class AboutPage extends React.Component {
 			   <li>Nodemailer for sending emails according to verify email and forgot password</li>
 			   <li>JavaScript and regular expression for backend form input validation</li>
 		       <li>JavaScript ES5, ES6 and ES7</li>
-		       <li>The JS Controllers are handling the requests, responses and calling the JS Services inspired by the MVC pattern</li>
+			   <li>Classes are used for a better overview and more clear syntax of the code</li>
+			   <li>Promises are used for making asynchronous code synchronous and then be able to get the result of a SQL call before sending an Email</li>
+			   <li>The MVC pattern is implemented by a folder structure representing a Model, Controllers and Services</li>
+			   <li>The Views of the MVC pattern are represented by the React frontend</li>
+			   <li>The input form validation take place in a User Model called from the JS Controllers</li>
+		       <li>The JS Controllers are handling the requests, responses and calling the JS Services</li>
 		       <li>The JS Services are performing SQL calls to the MySQL database and returning the result to the JS Controllers</li>
                <li>Hosted as a Cloud Service at Micosoft Azure App Service on a free service plan using Windows and iisnode</li>
               </ul>
