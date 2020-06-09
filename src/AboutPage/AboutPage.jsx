@@ -56,7 +56,8 @@ class AboutPage extends React.Component {
                <b>Technology and hosting used for the React SPA client - The frontend</b>  
                <ul>
 				<li>The frontend are representing the V for Views due to the MVC pattern</li>
-                <li>React, HTML, CSS, JavaScript ES5, ES6 and ES7</li>
+                <li>React, HTML and CSS</li>
+				<li>Mainly JavaScript ES5, ES6 and ES7 but in some cases up to ES10</li>
 				<li>Formik and Yup for frontend form input validation</li>
                 <li>Traditionel Bootstrap 4 by CDN for the responsive design</li>
 	            <li>Manuel configuration of the Webpack 4 serving as a module bundler</li>
@@ -70,9 +71,12 @@ class AboutPage extends React.Component {
                <li>Node.js and Express are used for the Web API backend</li>
 			   <li>Nodemailer for sending emails according to verify email and forgot password</li>
 			   <li>JavaScript and regular expression for backend form input validation</li>
-		       <li>JavaScript ES5, ES6 and ES7</li>
+		       <li>Mainly JavaScript ES5, ES6 and ES7 but in some cases up to ES10</li>
 			   <li>Classes are used for a better overview and more clear syntax of the code</li>
-			   <li>Promises are used for making asynchronous code synchronous and then be able to get the result of a SQL call before sending an Email</li>
+			   <li>Promises are used for making asynchronous code synchronous and then be 
+				   able to get the result of a SQL call before sending an Email</li>
+			   <li>The async / await keywords used together with Promises making sure the code 
+				   excecution will pause when needed </li>
 			   <li>The MVC pattern is implemented by a folder structure representing a Model, Controllers and Services</li>
 			   <li>The Views of the MVC pattern are represented by the React frontend</li>
 			   <li>The input form validation take place in a User Model called from the JS Controllers</li>
@@ -81,16 +85,32 @@ class AboutPage extends React.Component {
                <li>Hosted as a Cloud Service at Micosoft Azure App Service on a free service plan using Windows and iisnode</li>
               </ul>
           
-		      <b>Database</b>  
-		      <ul>
+		     <b>Database</b>  
+		     <ul>
 		       <li>MySQL</li>
-		      </ul>
+		     </ul>
+
          
 		     <b>Texteditor</b>  
 		     <ul>
               <li>Visual Studio Code</li>
              </ul>
 
+			 <b>Versions for the development stack of the Membership system</b>  
+		     <ul>
+              <li>React 16.8.6 for the frontend client</li>
+			  <li>Bootstrap 4.4.1 for the responsive design of the frontend delivered by CDN</li>
+			  <li>Node.js 8.9.4 and Express 4.16.3 for the backend Web API</li>
+			  <li>Webpack 4.29.6 for the module bundler</li>
+			  <li>MySQL 5.7 as database</li>
+             </ul>
+             
+			 <b>Testing</b>  
+		      <ul>
+		       <li>Test Driven Developement and Unit Testing all the way developing the system</li>
+		     </ul>
+
+             
            </div>
 
 	      </div>
