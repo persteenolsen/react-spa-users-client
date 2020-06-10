@@ -37,8 +37,8 @@ class AboutPage extends React.Component {
 
 			   <b>GitHub</b>
 			   <ul>
-			   <li><a href="https://github.com/persteenolsen/nodeexpressusersapi" target="_blank">The Web API - The backend</a></li>
-               <li><a href="https://github.com/persteenolsen/reactspausersclient" target="_blank">The React SPA Client - The frontend</a></li>
+			     <li><a href="https://github.com/persteenolsen/reactspausersclient" target="_blank">The React SPA Client - The frontend</a></li>
+				 <li><a href="https://github.com/persteenolsen/nodeexpressusersapi" target="_blank">The Web API - The backend</a></li>
 			   </ul>
 			
 			   <b>Main functionality of Users</b>
