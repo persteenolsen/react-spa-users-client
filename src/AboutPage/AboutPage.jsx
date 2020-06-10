@@ -24,17 +24,28 @@ class AboutPage extends React.Component {
                             
 			 <div className="col-xs-auto col-md-auto" >
 		                     
-			   <br/> 
-			   <h3>Description</h3>
+			  <br/> 
+			  <h3>Description</h3>
            
                This React SPA Client work together with a secure Node.js and Express Web API serving as a Role based Membership System.
 			   <br/><br/>
+
+			   <b>Last updated</b>
+			   <ul>
+				  <li>10-06-2020</li>
+			   </ul>
+
+			   <b>GitHub</b>
+			   <ul>
+			   <li><a href="https://github.com/persteenolsen/nodeexpressusersapi" target="_blank">The Web API - The backend</a></li>
+               <li><a href="https://github.com/persteenolsen/reactspausersclient" target="_blank">The React SPA Client - The frontend</a></li>
+			   </ul>
 			
 			   <b>Main functionality of Users</b>
 			   <ul>
 			    <li>Users are able to register an account and after verify the email, the users will be able to login to the system</li>
 			    <li>After a successfully login the users can update own profiles</li>
-			    <li>The users can recive new passwords by the forgot password functionality</li>
+			    <li>The users can receive new passwords by the forgot password functionality</li>
 			   </ul>
 			  
 			   <b>Main functionality of Administrators</b>
