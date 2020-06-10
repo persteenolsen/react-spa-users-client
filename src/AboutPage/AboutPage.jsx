@@ -40,7 +40,8 @@ class AboutPage extends React.Component {
 			     <li><a href="https://github.com/persteenolsen/reactspausersclient" target="_blank">The React SPA Client - The frontend</a></li>
 				 <li><a href="https://github.com/persteenolsen/nodeexpressusersapi" target="_blank">The Web API - The backend</a></li>
 			   </ul>
-			
+              	
+             
 			   <b>Main functionality of Users</b>
 			   <ul>
 			    <li>Users are able to register an account and after verify the email, the users will be able to login to the system</li>
@@ -96,9 +97,30 @@ class AboutPage extends React.Component {
                <li>Hosted as a Cloud Service at Micosoft Azure App Service on a free service plan using Windows and iisnode</li>
               </ul>
           
-		     <b>Database</b>  
+		     <b>Type of database</b>  
 		     <ul>
 		       <li>MySQL</li>
+		     </ul>
+			 <b>Name of the database table</b>  
+		     <ul>
+		       <li>node_crud_users_jwt</li>
+		     </ul>
+			 <b>Name and properties of the table columns</b>  
+		     <ul>
+		       <li>id - bigInt - primary key - auto_increment</li>
+			   <li>title - varchar</li>
+			   <li>email - varchar</li>
+			   <li>passwordhash - varchar</li>
+			   <li>firstName - varchar</li>
+			   <li>lastName - varchar</li>
+			   <li>acceptterms - varchar</li>
+			   <li>role - varchar</li>
+			   <li>isVerified - varchar</li>
+			   <li>dateCreated- varchar</li>
+			   <li>verificationToken - varchar</li>
+			   <li>resetToken - varchar</li>
+			   <li>resetTokenExpiry - varchar - Note: This column is not used in this Versions
+				   of the system. It Could be used for Token Expiry after 24 hours</li>
 		     </ul>
 
          
@@ -115,13 +137,13 @@ class AboutPage extends React.Component {
 			  <li>Webpack 4.29.6 for the module bundler</li>
 			  <li>MySQL 5.7 as database</li>
              </ul>
-             
+             			 		   
+			   			   
 			 <b>Testing</b>  
-		      <ul>
-		       <li>Test Driven Developement and Unit Testing all the way developing the system</li>
-		     </ul>
+		       <ul>
+		        <li>Test Driven Developement and Unit Testing all the way developing the system</li>
+		       </ul>
 
-             
            </div>
 
 	      </div>
