@@ -32,7 +32,7 @@ class AboutPage extends React.Component {
 
 			   <b>Last updated</b>
 			   <ul>
-				  <li>10-06-2020</li>
+				  <li>12-06-2020</li>
 			   </ul>
 
 			   <b>GitHub</b>
@@ -87,8 +87,8 @@ class AboutPage extends React.Component {
 			   <li>Classes are used for a better overview and more clear syntax of the code</li>
 			   <li>Promises are used for making asynchronous code synchronous and then be 
 				   able to get the result of a SQL call before sending an Email</li>
-			   <li>The async / await keywords used together with Promises making sure the code 
-				   excecution will pause when needed </li>
+			   <li>One test example of using the async / await keywords together with Promises to change the sequence 
+				   just a bit making a SQL part of the code execute synchronous</li>
 			   <li>The MVC pattern is implemented by a folder structure representing a Model, Controllers and Services</li>
 			   <li>The Views of the MVC pattern are represented by the React frontend</li>
 			   <li>The input form validation take place in a User Model called from the JS Controllers</li>
@@ -119,7 +119,7 @@ class AboutPage extends React.Component {
 			   <li>dateCreated- varchar</li>
 			   <li>verificationToken - varchar</li>
 			   <li>resetToken - varchar</li>
-			   <li>resetTokenExpiry - varchar - Note: This column is not used in this Versions
+			   <li>resetTokenExpiry - varchar - Note: This column is not used in this Version
 				   of the system. It Could be used for Token Expiry after 24 hours</li>
 		     </ul>
 
