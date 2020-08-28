@@ -32,7 +32,7 @@ class AboutPage extends React.Component {
 
 			   <b>Last updated</b>
 			   <ul>
-				  <li>12-06-2020</li>
+				  <li>28-08-2020</li>
 			   </ul>
 
 			   <b>GitHub</b>
@@ -46,7 +46,7 @@ class AboutPage extends React.Component {
 			   <ul>
 			    <li>Users are able to register an account and after verify the email, the users will be able to login to the system</li>
 			    <li>After a successfully login the users can update own profiles</li>
-			    <li>The users can receive new passwords by the forgot password functionality</li>
+			    <li>The users can receive new passwords by the forgot password functionality by reseting their password before a given time like 24 hours</li>
 			   </ul>
 			  
 			   <b>Main functionality of Administrators</b>
@@ -119,8 +119,7 @@ class AboutPage extends React.Component {
 			   <li>dateCreated- varchar</li>
 			   <li>verificationToken - varchar</li>
 			   <li>resetToken - varchar</li>
-			   <li>resetTokenExpiry - varchar - Note: This column is not used in this Version
-				   of the system. It Could be used for Token Expiry after 24 hours</li>
+			   <li>resetTokenExpiry - varchar</li>
 		     </ul>
 
          
