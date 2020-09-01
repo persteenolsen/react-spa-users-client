@@ -33,8 +33,8 @@ function Register({ history }) {
 		    .max(25, 'First Name must be max 25 characters')
 			.required('Email is required'),
         password: Yup.string()
-            .min(6, 'Password must be at least 6 characters')
-			.max(15, 'Password must be max 15 characters')
+            .min(6, 'Password must be at least 6 characters and without whitespaces')
+			.max(15, 'Password must be max 15 characters and without whitespaces')
 			.required('Password is required'),
         confirmPassword: Yup.string()
             .oneOf([Yup.ref('password'), null], 'Passwords must match')

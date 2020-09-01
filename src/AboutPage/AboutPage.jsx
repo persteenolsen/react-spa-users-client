@@ -32,7 +32,7 @@ class AboutPage extends React.Component {
 
 			   <b>Last updated</b>
 			   <ul>
-				  <li>28-08-2020</li>
+				  <li>01-09-2020</li>
 			   </ul>
 
 			   <b>GitHub</b>
@@ -60,7 +60,9 @@ class AboutPage extends React.Component {
              	 <li>The Passwords of the users and administrators are encrypted by BCRYPT before stored in the database</li>
                  <li>The system is using a JSON Web Token ( JWT ) for securing the endpoints of the Web API</li>
 			     <li>The Web API is secured by CORS allowing only the subdomain containing the React SPA client making HTTPS request</li>
-				 <li>Frontend and backend form input validation</li>
+				 <li>Frontend validation</li>
+				 <li>Backend form input validation to contole input, prevent xss and sql attacks by removing whitespaces, 
+					 allowing only limited length of input, letters and numbers only</li>
                  <li>The above security is making the Web API and the data secure for the users of the system</li>
                </ul> 
           

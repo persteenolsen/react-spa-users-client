@@ -38,8 +38,8 @@ function AddEdit({ history, match }) {
             .required('Role is required'),
         password: Yup.string()
             .concat(isAddMode ? Yup.string().required('Password is required') : null)
-            .min(6, 'Password must be at least 6 characters')
-			.max(15, 'Password must be max 15 characters'),
+            .min(6, 'Password must be at least 6 characters and without whitespaces')
+			.max(15, 'Password must be max 15 characters and without whitespaces'),
 			
         confirmPassword: Yup.string()
             .when('password', (password, schema) => {
