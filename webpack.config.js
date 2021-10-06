@@ -42,10 +42,10 @@ module.exports = {
         // global app config object
 		
 		// NOTE: FOR PRODUCTION ON AZURE!!!
-        // config: JSON.stringify({ apiUrl: 'https://pso-express-react-users.azurewebsites.net/' })
+         config: JSON.stringify({ apiUrl: 'https://pso-express-react-users.azurewebsites.net/' })
 		 
 		// REAL LOCAL BACKEND - FOR TESTING
-         config: JSON.stringify({ apiUrl:'http://localhost:443' })
+        // config: JSON.stringify({ apiUrl:'http://localhost:443' })
         // WITH FAKE BACKEND
 		// config: JSON.stringify({ apiUrl:'http://localhost:4000' })
     }
