@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "repository": {
         "type": "git",
-        "url": "https://github.com/persteenolsen/reactspausersclient"
+        "url": "https://github.com/persteenolsen/react-spa-users-client"
     },
     "license": "MIT",
     "scripts": {
