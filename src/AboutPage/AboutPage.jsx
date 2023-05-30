@@ -32,13 +32,13 @@ class AboutPage extends React.Component {
 
 			   <b>Last updated</b>
 			   <ul>
-				  <li>06-10-2021</li>
+				  <li>30-05-2023</li>
 			   </ul>
 
 			   <b>GitHub</b>
 			   <ul>
-			     <li><a href="https://github.com/persteenolsen/reactspausersclient" target="_blank">The React SPA Client - The frontend</a></li>
-				 <li><a href="https://github.com/persteenolsen/nodeexpressusersapi" target="_blank">The Web API - The backend</a></li>
+			     <li><a href="https://github.com/persteenolsen/react-spa-users-client" target="_blank">The React SPA Client - The frontend</a></li>
+				 <li><a href="https://github.com/persteenolsen/node-express-users-api" target="_blank">The Web API - The backend</a></li>
 			   </ul>
               	
              
