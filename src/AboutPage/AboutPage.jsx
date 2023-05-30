@@ -27,7 +27,7 @@ class AboutPage extends React.Component {
 			  <br/> 
 			  <h3>Description</h3>
            
-               This React SPA Client work together with a secure Node.js and Express Web API serving as a Role based Membership System.
+               The React SPA Client work together with a secure Node.js and Express Web API serving as a Role based Membership System.
 			   <br/><br/>
 
 			   <b>Last updated</b>
