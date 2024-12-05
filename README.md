@@ -1,6 +1,10 @@
 
 
   - This React client ( SPA ) is the frontend for a secure Node.js and Express Web API serving as a role based Membership system
+
+Last updated: 05-12-2024
+
+Node Version: 20
   
   - Email verification after registration
   - Forgot password functionality 

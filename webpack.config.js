@@ -47,6 +47,6 @@ module.exports = {
 		// REAL LOCAL BACKEND - FOR TESTING
         // config: JSON.stringify({ apiUrl:'http://localhost:443' })
         // WITH FAKE BACKEND
-		// config: JSON.stringify({ apiUrl:'http://localhost:4000' })
+	// config: JSON.stringify({ apiUrl:'http://localhost:4000' })
     }
 }
